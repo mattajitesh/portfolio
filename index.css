@@ -98,7 +98,7 @@ nav ul li a:hover {
     /* border-color: white; */
     margin: 1rem 10%;
     padding: 25px 10px;
-    height: 450px;
+    height: auto;
     text-align: center;
 }
 
