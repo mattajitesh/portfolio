@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Jitesh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li class="nav-items"><a href="#">Home</a></li>
+                    <li class="nav-items"><a href="#footer">About</a></li>
+                    <li class="nav-items"><a href="#project">Projects</a></li>
+                    <li class="nav-items"><a href="#footer">Notes</a></li>
+                    <li class="nav-items"><a href="#footer">Contact-Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="firstSection">
+        <div class="leftFirstSection">
+            Hi, My name is <span class="purple">Jitesh Matta</span>
+            <div>I am a passionate</div>
+            <span id="element" class="purple"></span>
+
+        </div>
+        <div class="rightFirstSection">
+            <img src="img/developer.png" alt="developer-logo">
+        </div>
+    </section>
+
+    <section class="secondSection" id="project">
+        <hr>
+        <h2>Projects</h2>
+        <div class="slideProject">
+            <div class="slideProjectContainer slideshow fade" style="display: block;">
+                <!-- <div class="numbertext"></div> -->
+                <a href="https://github.com/mattajitesh/Hand-Gesture-Presentation-Controller" target="_blank"><img
+                        src="img/hand_gesture.jpeg" alt="hand_gesture_presentation_controller_project"></a>
+                <h3><a href="https://github.com/mattajitesh/Hand-Gesture-Presentation-Controller/" target="_blank">Hand
+                        Gesture Presentation Controller</a></h3>
+                <p>Hand Gesture Presentation Controller project is focused on creating an innovative way to control
+                    PowerPoint presentations using hand gestures. Leveraging computer vision techniques, this project
+                    utilizes the cvzone.handTracking module along with cv2 (OpenCV) to detect and track hand movements,
+                    enabling seamless control of presentation slides without the need for traditional input devices.</p>
+            </div>
+            <div class="slideProjectContainer slideshow fade">
+                <!-- <div class="numbertext"></div> -->
+                <a href="https://github.com/mattajitesh/Taxi_fare_prediction/" target="_blank"><img src="img/taxi.png"
+                        alt="taxi_fare_prediction_project"></a>
+                <h3><a href="https://github.com/mattajitesh/Taxi_fare_prediction/" target="_blank">Taxi Fare
+                        Prediction</a></h3>
+                <p>Taxi Fare Prediction project aims to develop a machine learning model that accurately predicts taxi
+                    fares based on a given set of features. Using the TaxiFare dataset, which consists of 50,000 rows
+                    and 8 main features, the project explores various predictive modeling techniques to estimate the
+                    fare for a taxi ride. This project is ideal for understanding the application of regression
+                    algorithms, feature engineering, and data preprocessing in a real-world scenario.</p>
+            </div>
+            <div class="slideProjectContainer slideshow fade">
+                <!-- <div class="numbertext"></div> -->
+                <a href="https://github.com/mattajitesh/HandWritten_Digit_Recognition" target="_blank"><img
+                        src="img/handwritten_digit.png" alt="handwritten_digit_recognition_project"></a>
+                <h3><a href="https://github.com/mattajitesh/HandWritten_Digit_Recognition/" target="_blank">HandWritten
+                        Digit Recognition</a></h3>
+                <p>HandWritten Digit Recognition in which created a web-app uses a CNN model trained on the MNIST
+                    dataset to recognize handwritten digits (0-9). The frontend, built with HTML, CSS, and JavaScript,
+                    provides a canvas where users can draw digits. The model, stored as model.json, runs in real-time
+                    using TensorFlow.js, predicting the drawn digit instantly. This lightweight, interactive application
+                    performs client-side inference without requiring a backend, making it fast and efficient for digit
+                    recognition</p>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+        </div>
+        <br>
+        <hr>
+    </section>
+
+    <footer id="footer">
+        <div class="first-footer">
+            <h4>Jitesh Matta Developer's <br> Portfolio</h4>
+            <div>
+                <ul>
+                    <li><a href="">Resume[in pdf]</a></li>
+                    <li><a href="https://www.linkedin.com/in/jiteshmatta/" target="_blank">Connect on Linekdin</a></li>
+                    <li><a href="https://www.github.com/mattajitesh/" target="_blank">Github</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="second-footer">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#footer">Notes</a></li>
+                <li><a href="#footer">Contact-Me</a></li>
+            </ul>
+        </div>
+        <div class="third-footer">
+            <h3>Projects</h3>
+            <ul>
+                <li><a href="https://github.com/mattajitesh/Hand-Gesture-Presentation-Controller/" target="_blank">Hand Gesture Presentation Controller</a></li>
+                <li><a href="https://github.com/mattajitesh/Taxi_fare_prediction/" target="_blank">Taxi Fare Prediction</a></li>
+                <li><a href="https://github.com/mattajitesh/HandWritten_Digit_Recognition" target="_blank">Handwritten Digit Recognition</a></li>
+            </ul>
+        </div>
+        <div class="fourth-footer">
+            <h3>Notes</h3>
+            <ul>
+                <li><a href="">Data Structures</a></li>
+                <li><a href="">Computer Network</a></li>
+                <li><a href="">Database Management System</a></li>
+                <li><a href="">Computer Architecture and Organisation</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developer', 'ML Expert', ' Graphic Designer', 'Web Developer'],
+            typeSpeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
