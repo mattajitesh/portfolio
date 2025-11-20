@@ -4,6 +4,8 @@ Welcome to my personal portfolio website, designed and developed to showcase my 
 
 This portfolio highlights my work in Machine Learning, AI Chatbots, Data Analysis, Web Development, and Backend Development — along with my latest project MedBot (AI Healthcare Chatbot).
 
+<img width="2876" height="3066" alt="mattajitesh_portfolio" src="https://github.com/user-attachments/assets/9776910e-cc4a-45c0-a051-d63ba20109da" />
+
 🚀 Features
 🎨 Modern UI/UX
 
